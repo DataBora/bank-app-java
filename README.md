@@ -5,7 +5,7 @@ Welcome to my small Bank App writen in Java! (the best programming language ever
 This app has Deposit, Withdraw, Transfer and getBalance methods, <br>
 and couple of methods for retriving and recording into database.
 
-###This app is pushed for demonstration purposes
+### This app is pushed for demonstration purposes
 
 ## Folder Structure
 
