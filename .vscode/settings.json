@@ -13,8 +13,8 @@
       "port": 3306,
       "driver": "MySQL",
       "name": "bank_account",
-      "username": "databora",
-      "database": "bank_app"
+      "username": "*",
+      "database": "*"
     }
   ]
 }
