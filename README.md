@@ -1,4 +1,4 @@
-## Mini BankApp project with Java (Back-end)
+## Mini BankApp project with Java
 
 Welcome to my small Bank App writen in Java! (the best programming language ever! ☺)
 This app has Deposit, Withdraw, Transfer and getBalance methods, <br>
