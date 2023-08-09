@@ -1,6 +1,7 @@
 ## Mini BankApp project with Java
 
-Welcome to my small Bank App writen in Java! (the best programming language ever! ☺)<br>
+Welcome to my small Bank App writen in Java! (the best programming language ever! ☺)
+<br>
 This app has Deposit, Withdraw, Transfer and getBalance methods, <br>
 and couple of methods for retriving and recording into database.
 
