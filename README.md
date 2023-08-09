@@ -1,18 +1,16 @@
-## Getting Started
+## Mini BankApp project with Java (Back-end)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to my small Bank App writen in Java! (the best programming language ever! ☺)
+This app has Deposit, Withdraw, Transfer and getBalance methods, <br>
+and couple of methods for retriving and recording into database.
 
 ## Folder Structure
 
-The workspace contains two folders by default, where:
+Project contains lib and src folders, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- `src`: the folder to maintain sources <br>
+  -> main \ java \ package1 \ ALL THE CLASSES <br>
+  -> main \ resources \ sql \ create_tables.sql <br>
+  -> main \ test \ ALL THE TEST CLASSES
+- `lib`: the folder to maintain dependencies <br>
+  mysql-connector-j-8.1.0.jar

@@ -5,12 +5,23 @@ import java.sql.Timestamp;
 
 
 public class Transaction {
+
+    /**
+     * Initiation of variables that match databalse table
+     */
     private Timestamp transactionDate;
-    private String senderAccountNumber;
-    private String receiverAccountNumber;
+    private Integer senderAccountNumber;
+    private Integer receiverAccountNumber;
     private BigDecimal amount;
 
-    public Transaction(Timestamp transactionDate, String senderAccountNumber, String receiverAccountNumber,BigDecimal amount){
+    /**
+     * Construktor for Transaction
+     * @param transactionDate filed for timestamp
+     * @param senderAccountNumber field for Sender account number
+     * @param receiverAccountNumber field for Receiver account number
+     * @param amount filed for amount within transaction
+     */
+    public Transaction(Timestamp transactionDate, Integer senderAccountNumber, Integer receiverAccountNumber,BigDecimal amount){
 
         this.transactionDate = transactionDate;
         this.senderAccountNumber = senderAccountNumber;
@@ -18,16 +29,19 @@ public class Transaction {
         this.amount = amount;
     }
 
-    // Getter methods for the fields...
+    /**
+     * Getter methods for the fields...
+     * @return getter methods
+     */
     public Timestamp getTransactionDate(){
         return transactionDate;
     }
 
-    public String getSenderAccountNumber(){
+    public Integer getSenderAccountNumber(){
         return senderAccountNumber;
     }
 
-    public String getReceiverAccountNumber(){
+    public Integer getReceiverAccountNumber(){
         return receiverAccountNumber;
     }
 
