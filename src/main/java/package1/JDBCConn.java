@@ -9,8 +9,8 @@ public class JDBCConn {
      * JDBC connection
      */
     private static final String JDBC_URL =  "jdbc:mysql://localhost:3306/bank_app";
-    private static final String JDBC_USER = "databora";
-    private static final String JDBC_PASSWORD = "!Djavolak1";
+    private static final String JDBC_USER = "*";
+    private static final String JDBC_PASSWORD = "*";
 
     
     public static String getJdbcUrl() {
