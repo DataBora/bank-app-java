@@ -15,3 +15,6 @@ Project contains lib and src folders, where:
   -> main \ test \ ALL THE TEST CLASSES
 - `lib`: the folder to maintain dependencies <br>
   mysql-connector-j-8.1.0.jar
+
+##Initialisation and Testing
+![bankapp](https://github.com/DataBora/bank-app-java/assets/94956337/567cbccc-5f69-4541-9c8a-ec444d1dcf80)
