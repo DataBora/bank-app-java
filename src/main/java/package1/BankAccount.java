@@ -36,6 +36,9 @@ public class BankAccount {
     }
 
     public void setAccountNumber(Integer accountNumber){
+        if (accountNumber == null || accountNumber <= 0) {
+            throw new IllegalArgumentException("Invalid account number.");
+        }
         this.accountNumber = accountNumber;
     }
     
@@ -44,6 +47,9 @@ public class BankAccount {
     }
 
     public void setOwnerName(String ownerName) {
+        if (ownerName == null || ownerName.trim().isEmpty()) {
+            throw new IllegalArgumentException("Owner name cannot be empty.");
+        }
         this.ownerName = ownerName;
     }
 
@@ -52,6 +58,9 @@ public class BankAccount {
     }
 
     public void setBalance(BigDecimal balance){
+        if (balance == null || balance.compareTo(BigDecimal.ZERO) < 0) {
+            throw new IllegalArgumentException("Invalid balance value.");
+        }
         this.balance = balance;
     }
 
